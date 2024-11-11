@@ -56,7 +56,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 15px;
 }
 .name {
   font-family: "Edu SA Beginner", cursive;
@@ -75,7 +75,7 @@ nav {
   font-size: 2.5rem;
   margin-top: 5px;
   font-weight: bold;
-  width: 30%;
+  width: 50%;
   text-align: center;
   font-family: "Montserrat Alternates", sans-serif;
 }
@@ -244,13 +244,13 @@ nav {
 }
 .divider {
   height: 1px;
-  width: 1700px;
+  width: 100%;
   background-color: #d3ead8;
   margin-top: 50px;
 }
 .footer-items {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
