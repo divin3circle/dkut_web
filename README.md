@@ -4,4 +4,5 @@ Project repo for GDG on Campus Web Development Dedan Kimathi University
 
 ## Portfolio Website
 
-Live link ->
+- Live link ->
+- Project code ->
