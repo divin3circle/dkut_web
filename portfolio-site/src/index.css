@@ -4,6 +4,10 @@ body {
   margin: 0;
   font-family: "Montserrat Alternates", sans-serif;
 }
+nav {
+  text-align: center;
+}
+
 /* first section */
 .first-section {
   background-color: #eeefed;
