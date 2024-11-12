@@ -278,3 +278,41 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Media Queries */
+/* Optional for 13th's session */
+@media not all and (min-width: 768px) {
+  .socials {
+    display: none;
+  }
+  .tagline {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .hire-btn {
+    width: 300px;
+    height: 50px;
+  }
+  .third-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .services {
+    margin-top: 10px;
+  }
+  .service-title {
+    width: 250px;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
