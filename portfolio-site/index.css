@@ -98,18 +98,22 @@ nav {
 
 /* second section */
 .second-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 20px;
   padding-right: 10px;
   padding-left: 10px;
-  height: 26vh;
+  height: 36vh;
   border-radius: 0 0 110px 110px;
   background-color: white;
 }
 .projects {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 55px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15px;
+  height: 34vh;
+  gap: 10px;
 }
 .project img {
   width: 300px;
@@ -282,8 +286,14 @@ a:hover {
 /* Media Queries */
 /* Optional for 13th's session */
 @media not all and (min-width: 768px) {
+  .first-section {
+    border-radius: 0 0 70px 70px;
+  }
   .socials {
     display: none;
+  }
+  .navbar {
+    justify-content: center;
   }
   .tagline {
     font-size: 1.5rem;
@@ -293,10 +303,19 @@ a:hover {
     width: 300px;
     height: 50px;
   }
+  .second-section {
+    margin-bottom: 10px;
+    height: 34vh;
+  }
+  .project img {
+    width: 150px;
+    height: 50px;
+  }
   .third-section {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    border-radius: 70px 70px 70px 70px;
   }
   .services-container {
     display: flex;
@@ -304,7 +323,7 @@ a:hover {
     justify-content: center;
   }
   .services {
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .service-title {
     width: 250px;
@@ -314,5 +333,14 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .service-title h1 {
+    font-size: 0.7rem;
+  }
+  .title {
+    margin-top: 0px;
+    font-size: medium;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
